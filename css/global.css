@@ -4,8 +4,9 @@ h1,
 h2,
 h4,
 p,
-li {
+li{
   font-family: Roboto, serif;
+  text-decoration: none;
 }
 
 :root {
@@ -16,4 +17,10 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a{
+  font-family: Roboto, serif;
+  text-decoration: none;
+  color: white;
 }
