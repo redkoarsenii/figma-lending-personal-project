@@ -1,5 +1,5 @@
 .header {
-  background-color: grey;
+  background-color: #2091f9;
   max-width: 2000px;
   margin-left: auto;
   margin-right: auto;
@@ -7,12 +7,10 @@
   justify-content: space-evenly;
 }
 
-
-.header__logo-container{
+.header__logo-container {
   margin: auto;
   padding-right: 220px;
 }
-
 
 .header__navigation {
   margin: auto;
@@ -25,7 +23,7 @@
   }
 }
 
-.header__socials-btn{
+.header__socials-btn {
   margin: auto;
 }
 
@@ -37,17 +35,13 @@
   padding: 0;
 }
 
-@media (max-width: 768px){
-  .header{
+@media (max-width: 768px) {
+  .header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .header__logo-container{
+  .header__logo-container {
     padding-right: 0;
   }
-
-
 }
-
-
