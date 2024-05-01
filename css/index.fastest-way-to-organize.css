@@ -41,6 +41,23 @@
     margin-left: 57px;
 }
 
+@media (max-width: 768px) {
+    .fastes-way-to{
+        display: grid;
+    }
+    .fastes-way-to__content-container{
+        text-align: center;
+
+    }
+    .fastes-way-to__laptop-image{
+        width: 378px;
+        height: 211px;
+    }
+    .fastes-way-to__image-container{
+        padding: 65px 19px 0 19px;
+        margin-left: 0;
+    }
+}
 
 
 

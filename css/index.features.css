@@ -62,3 +62,13 @@
   border-radius: 40px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 768px) {
+  .features__items{
+    display: grid;
+  }
+  .features__video{
+    width: 385px;
+    height: 215px;
+  }
+}
