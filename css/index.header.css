@@ -1,11 +1,21 @@
 .header {
   background-color: grey;
   max-width: 2000px;
-  display: flex;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+
+.header__logo-container{
+  margin: auto;
+  padding-right: 220px;
+}
+
+
 .header__navigation {
+  margin: auto;
   .header__navigation-list {
     display: flex;
     list-style-type: none;
@@ -13,20 +23,9 @@
       padding: 10px;
     }
   }
-  margin-top: auto;
-  margin-left: 500px;
-  margin-right: 30px;
-  margin-bottom: auto;
 }
 
-.header__logo-container {
-  margin-top: auto;
-  margin-left: 0;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
-.header__socials-btn {
+.header__socials-btn{
   margin: auto;
 }
 
@@ -37,3 +36,18 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 768px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__logo-container{
+    padding-right: 0;
+  }
+
+
+}
+
+
