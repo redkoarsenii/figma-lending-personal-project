@@ -47,3 +47,18 @@
   line-height: 25px;
   color: #374754;
 }
+
+.features__video-container{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 132px ;
+}
+
+.features__video{
+  width: 1177px;
+  height: 658px;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
