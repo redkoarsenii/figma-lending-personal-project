@@ -41,6 +41,8 @@
   cursor: pointer;
   text-decoration: none;
   border: 0;
+  font-size: 20px;
+  line-height: 20px;
 }
 .thebest__btn-item:hover {
   background-color: #1767b0;
