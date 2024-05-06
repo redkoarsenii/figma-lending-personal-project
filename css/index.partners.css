@@ -1,0 +1,22 @@
+.partners{
+    background-color: grey;
+}
+
+.partners__text-container{
+    .partners__title{
+        text-align: center;
+        padding: 40px 172px 7px 172px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        color: #252B42;
+    }
+    .partners__subtitle{
+        text-align: center;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        color: #374754;
+
+    }
+}
