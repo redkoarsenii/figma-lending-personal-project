@@ -1,5 +1,7 @@
 .partners{
-    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 2000px;
 }
 
 .partners__text-container{
@@ -20,3 +22,67 @@
 
     }
 }
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.partners__logo-container{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+.partners__logo-slider{
+    display: inline-block;
+    animation: 10s slide infinite linear;
+}
+
+.partners__logo-slider img{
+    height: 200px;
+}
+
+.partners__logo-container:hover .partners__logo-slider{
+    animation-play-state: paused;
+}
+
+.partners__logo-container:before,
+.partners__logo-container:after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.partners__logo-container:before{
+    background: linear-gradient(to left, rgba(255,255,255,0), white);
+    left: 0;
+}
+
+.partners__logo-container:after{
+    background: linear-gradient(to right, rgba(255,255,255,0), white);
+    right: 0;
+}
+
+@media (max-width: 768px){
+    .partners__logo-container:before{
+        background: 0;
+        left: 0;
+    }
+
+    .partners__logo-container:after{
+        background: 0;
+        right: 0;
+    }
+}
+
