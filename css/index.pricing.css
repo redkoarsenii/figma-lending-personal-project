@@ -1,0 +1,122 @@
+.pricing {
+  background-color: #252b42;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing__text-container {
+  padding: 100px 0 80px 0;
+  text-align: center;
+  .pricing__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #ffffff;
+    padding: 10px;
+  }
+  .pricing__subtitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 10px;
+  }
+}
+.pricing__cards-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 100px;
+  .pricing__card-item {
+    background-color: #ffffff;
+    margin: 43px 50px 43px 50px;
+    border: 0;
+    border-radius: 10px;
+    .pricing__card-content {
+      padding: 40px 0 40px 0;
+      width: 335px;
+      .pricing__card-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #252b42;
+      }
+      .pricing__card-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #374754;
+        margin-bottom: 30px;
+      }
+      .pricing__card-price-container {
+        display: flex;
+        justify-content: center;
+        .pricing__card-zero {
+          font-weight: 700;
+          font-size: 70px;
+          line-height: 84px;
+          color: #252b42;
+          padding: 10px;
+        }
+        .pricing__card-price-container-symbols {
+          text-align: left;
+          margin-top: 25px;
+          .pricing__card-dollar-sign {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            color: #252b42;
+          }
+          .pricing__card-dollar-sign-subtitle {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            color: #374754;
+          }
+        }
+      }
+    }
+    .pricing__feature-list {
+      padding: 10px 40px 30px 40px;
+      .pricing__card-pricing-feature {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #252b42;
+      }
+    }
+    .pricing__card-btn-container {
+      .pricing__card-btn {
+        background-color: #2091f9;
+        width: 236px;
+        height: 52px;
+        border-radius: 35px;
+        cursor: pointer;
+        text-decoration: none;
+        border: 0;
+        font-size: 20px;
+        line-height: 20px;
+        .pricing__card-btn-link {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #ffffff;
+        }
+      }
+      .pricing__card-btn:hover {
+        background-color: #1767b0;
+      }
+    }
+  }
+  .pricing__card-item-middle {
+      background-color: #2091F9;
+      margin: 43px 50px 43px 50px;
+      border: 0;
+      border-radius: 10px;
+      .pricing__card-content{
+          padding: 40px 0 40px 0;
+          width: 335px;
+      }
+  }
+}
