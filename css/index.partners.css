@@ -72,17 +72,6 @@
   right: 0;
 }
 
-@media (max-width: 768px) {
-  .partners__logo-container:before {
-    background: 0;
-    left: 0;
-  }
-
-  .partners__logo-container:after {
-    background: 0;
-    right: 0;
-  }
-}
 
 .partners__btn-container {
   padding-top: 80px;
@@ -102,4 +91,21 @@
   .partners__btn:hover {
     background-color: #1767b0;
   }
+}
+
+@media (max-width: 768px) {
+    .partners__logo-container:before {
+        background: 0;
+        left: 0;
+    }
+
+    .partners__logo-container:after {
+        background: 0;
+        right: 0;
+    }
+
+    .partners__title{
+        padding: 0 !important;
+    }
+
 }
