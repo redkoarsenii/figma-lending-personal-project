@@ -48,15 +48,15 @@
   color: #374754;
 }
 
-.features__video-container{
+.features__video-container {
   display: flex;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 132px ;
+  padding-top: 132px;
 }
 
-.features__video{
+.features__video {
   width: 1177px;
   height: 658px;
   border-radius: 40px;
@@ -64,11 +64,18 @@
 }
 
 @media (max-width: 768px) {
-  .features__items{
+  .features__items {
     display: grid;
   }
-  .features__video{
+  .features__video {
     width: 370px;
+    height: 215px;
+  }
+}
+
+@media (max-width: 360px) {
+  .features__video {
+    width: 340px;
     height: 215px;
   }
 }

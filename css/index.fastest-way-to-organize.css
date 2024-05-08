@@ -65,3 +65,9 @@
     margin-right: auto;
   }
 }
+@media (max-width: 360px) {
+  .fastes-way-to__laptop-image {
+    width: 340px;
+    height: 211px;
+  }
+}
