@@ -114,9 +114,90 @@
       margin: 43px 50px 43px 50px;
       border: 0;
       border-radius: 10px;
+      margin-bottom: -5px;
+      margin-top: -5px;
       .pricing__card-content{
           padding: 40px 0 40px 0;
           width: 335px;
+        .pricing__card-title{
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          color: #FFFFFF;
+          margin-top: 53px;
+        }
+        .pricing__card-subtitle {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          color: #FFFFFF;
+          margin-bottom: 30px;
+        }
+        .pricing__card-price-container {
+          display: flex;
+          justify-content: center;
+          .pricing__card-zero {
+            font-weight: 700;
+            font-size: 70px;
+            line-height: 84px;
+            color: #FFFFFF;
+            padding: 10px;
+          }
+          .pricing__card-price-container-symbols {
+            text-align: left;
+            margin-top: 25px;
+            .pricing__card-dollar-sign {
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 28px;
+              color: #FFFFFF;
+            }
+            .pricing__card-dollar-sign-subtitle {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 23px;
+              color: #FFFFFF;
+            }
+          }
+        }
       }
+    .pricing__feature-list {
+      padding: 10px 40px 30px 40px;
+      .pricing__card-pricing-feature {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FFFFFF;
+      }
+    }
+    .pricing__card-btn-container {
+      .pricing__card-btn {
+        background-color: #FFFFFF;
+        width: 236px;
+        height: 52px;
+        border-radius: 35px;
+        cursor: pointer;
+        text-decoration: none;
+        border: 0;
+        font-size: 20px;
+        line-height: 20px;
+        .pricing__card-btn-link {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+          color: #2091F9;
+        }
+      }
+      .pricing__card-btn:hover {
+        background-color: #cccccc;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .pricing__cards-container{
+    display: grid;
   }
 }
