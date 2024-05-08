@@ -60,7 +60,8 @@
     height: 211px;
   }
   .fastes-way-to__image-container {
-    padding: 65px 19px 0 19px;
-    margin-left: 0;
+    padding: 65px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

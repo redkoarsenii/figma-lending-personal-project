@@ -109,4 +109,14 @@
   .lightning-fast__btn {
     width: 273px !important;
   }
+  .lightning-fast__image-container{
+    width: 360px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lightning-fast__image{
+    width: 360px !important;
+
+  }
 }
